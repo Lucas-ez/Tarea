@@ -4,18 +4,19 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
-    background-color: rgb(12, 120, 120);
     padding: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-
+    background: linear-gradient(to bottom, rgb(69, 141, 141) 0%,rgb(10, 100, 100) 100%);
+    
 }
 
 img {
     display:block;
     margin:auto;
     border-radius: 20px;
-    border-color: black
+    border-color: black;
+    box-shadow: 0 0 5px black;
 }
 
 p {
@@ -46,6 +47,7 @@ h3 {
     border-color: rgb(10, 106, 106);
     width: max-content;
     margin: 15px;
+    
 }
 
 .titulos {
@@ -55,7 +57,8 @@ h3 {
 }
 
 #formulario {
-    background-color: rgb(14, 141, 141);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to left, rgb(69, 141, 141) 0%,rgb(10, 100, 100) 100%);
     margin: 0px;
     padding: 8px;
     font-family: Arial, Helvetica, sans-serif;
