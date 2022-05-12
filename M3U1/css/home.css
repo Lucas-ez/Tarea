@@ -8,10 +8,6 @@ main img {
     width: 1080px;
 }
 
-h2{
-    color: #2265b0;
-}
-
 .columnas {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+main h2 {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.info h4 {
+    color: #2265b0;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    border-bottom: 1px solid #184d8a;
+    padding-bottom: 10px;
+}
+
+.servicio img {
+    border-radius: 15px;
+    display: block;
+    max-width: 225px;
+    width: 20%;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
