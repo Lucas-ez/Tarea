@@ -1,0 +1,14 @@
+{{#if notNumber}}
+    <h1>Ingresa un número</h1>
+    <form action="/ingresar" method="post">
+        <input type="text" name="number" class="form-element">
+        <button class="form-element">Confirmar</button>
+    </form>
+    {{#unless empty}}
+        <p class="error-message">No ingresaste un número</p>
+    {{/unless}}
+{{/if}}
+
+{{#unless notNumber}}
+    <h2>Elegiste el <span class="number">{{number}}</span><a href="/cambiar">cambiar</a></h2>
+{{/unless}}

@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(224, 223, 223);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  padding: 8px;
+  margin: 5px;
+  font-size: 32px;
+  background-color: rgb(85, 85, 248);
+  color: white;
+  border-radius: 8px;
+}
+
+a {
+  color: #00B7FF;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.error-message {
+  color: #b30202;
+  font-weight: bold;
+}
